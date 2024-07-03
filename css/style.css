@@ -1,4 +1,22 @@
-.grid{
+.grid {
     display: grid;
     grid-template-columns: auto auto auto;
+}
+
+.hero_image {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0;
+}
+
+.hero_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+
+    font-size: 5rem;
 }

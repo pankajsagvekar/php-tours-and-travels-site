@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <section>
+    <section style="margin: 0;">
         <nav class="container-fluid">
             <ul>
                 <li style="padding-bottom: 0;">
@@ -24,7 +24,7 @@
             </ul>
             <ul>
                 <li><a href="home.php">Home</a></li>
-                <li><a href="about.php">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="package.php">Package</a></li>
                 <li><a href="book.php">Book</a></li>
                 <li>
@@ -33,7 +33,12 @@
                 </li>
             </ul>
         </nav>
-        <hr style="margin-top: 0">
+        <hr style="margin: 0">
+    </section>
+
+    <section class="hero_image container-fluid">
+        <img src="../img/hero.jpg" alt="">
+        <h2 class="hero_text" data-theme="dark">Travel The World</h2>
     </section>
 
     <section class="container-fluid">
@@ -64,6 +69,16 @@
                 <img src="../img/camping.jpg" alt="" srcset="">
             </article>
         </section>
+    </section>
+
+    <section class="container-fluid" id="about">
+        <h3>About Us</h3>
+        <article>
+            <header>About Us</header>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae sint officia sit aperiam quasi ipsam minima et voluptas similique, doloribus pariatur. Alias aspernatur hic blanditiis quibusdam officiis tenetur veniam ipsa.</p>
+            <footer><a href="about.php"><button style="padding: .5rem .7rem;">Read More</button></a></footer>
+        </article>
+
     </section>
 
     <section>

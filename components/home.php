@@ -10,11 +10,11 @@
 
     <link rel="stylesheet" href="../css/pico.min.css" />
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../img/plane-departure-solid.svg" type="image/x-icon">
     <script src="../js/app.js"></script>
 </head>
 
 <body>
-
     <section>
         <nav class="container-fluid">
             <ul>
@@ -28,7 +28,7 @@
                 <li><a href="package.php">Package</a></li>
                 <li><a href="book.php">Book</a></li>
                 <li>
-                    <input name="terms" type="checkbox" role="switch" onclick="lightMode()"/>
+                    <input name="terms" type="checkbox" role="switch" onclick="lightMode()" />
                     <i class="fa-solid fa-circle-half-stroke"></i>
                 </li>
             </ul>
